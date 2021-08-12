@@ -1,5 +1,5 @@
 
-    <div class="container mt-4" style="width:100vh;display:flex;justify-content:center;align-items:center">
+    <div class="container mt-4">
         <div class="text-center" style="color:#ff5059"><h6> designed & developed by <a href="http://linkedin.com/in/mnk17arts"  target="_blank" style="color:orangered;" rel="noopener noreferrer">mnk17arts</a></h6></div>
     </div>
     <!-- Bootstrap Bundle with Popper -->

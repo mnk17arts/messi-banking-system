@@ -1,0 +1,74 @@
+
+// index.php
+.index-body
+    background-image: linear-gradient(to right, #ff8800d3, #000000dc), url('../bankb.jpg')
+    background-position: center
+.indexdiv
+    background-color: #ffffffa9
+    background-image: linear-gradient(to right, #ffffffa9), url('../bankm.jpg')
+    opacity: 0.85
+    background-position: center
+    border-radius: 25px 
+    min-height: 70vh
+    .btns
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        button
+            margin: 2.5px 5px
+            width: 170px
+            font-weight: 700
+            font-size: 20px
+            background-color: #fdbdbd
+            border-radius: 10px
+            border: 2px inset #fff
+            &:hover
+                background-color: #ffdbdb
+            &:active
+                border-style: outset
+                background-color: #fae4e4 
+// #339633
+// header.php
+.headerdiv
+    background-color: #00000088 
+    border-radius: 25px 
+
+// listofc.php
+.tablediv
+    overflow-y: auto
+
+// viewaccount.php
+.viewdiv
+    overflow-y: auto
+    table
+        border: 2px solid #888
+        font-size: 20px
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+        td, th
+            padding: 5px
+            border: 2px solid #888
+        td
+            font-weight: 700
+            color: #4b4b4b
+
+
+
+// <style>
+// .dataTables_wrapper {
+//     background-color: #222;
+//     padding: 5px;
+//     border-radius: 5px;
+// }
+
+// .dataTables_length,
+// .dataTables_filter {
+//     background-color: #222;
+//     color: #fff !important;
+//     /* padding: 5px; */
+// }
+.dataTables_length, .dataTables_paginate, .paging_simple_numbers
+    display: none !important
+.dataTables_info 
+    color: #f36363 !important
+
+// </style>

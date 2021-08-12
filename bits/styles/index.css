@@ -1,0 +1,83 @@
+.index-body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff8800d3), to(#000000dc)), url("../bankb.jpg");
+  background-image: linear-gradient(to right, #ff8800d3, #000000dc), url("../bankb.jpg");
+  background-position: center;
+}
+
+.indexdiv {
+  background-color: #ffffffa9;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffffffa9)), url("../bankm.jpg");
+  background-image: linear-gradient(to right, #ffffffa9), url("../bankm.jpg");
+  opacity: 0.85;
+  background-position: center;
+  border-radius: 25px;
+  min-height: 70vh;
+}
+
+.indexdiv .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.indexdiv .btns button {
+  margin: 2.5px 5px;
+  width: 170px;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #fdbdbd;
+  border-radius: 10px;
+  border: 2px inset #fff;
+}
+
+.indexdiv .btns button:hover {
+  background-color: #ffdbdb;
+}
+
+.indexdiv .btns button:active {
+  border-style: outset;
+  background-color: #fae4e4;
+}
+
+.headerdiv {
+  background-color: #00000088;
+  border-radius: 25px;
+}
+
+.tablediv {
+  overflow-y: auto;
+}
+
+.viewdiv {
+  overflow-y: auto;
+}
+
+.viewdiv table {
+  border: 2px solid #888;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.viewdiv table td, .viewdiv table th {
+  padding: 5px;
+  border: 2px solid #888;
+}
+
+.viewdiv table td {
+  font-weight: 700;
+  color: #4b4b4b;
+}
+
+.dataTables_length, .dataTables_paginate, .paging_simple_numbers {
+  display: none !important;
+}
+
+.dataTables_info {
+  color: #f36363 !important;
+}
+/*# sourceMappingURL=index.css.map */

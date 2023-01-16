@@ -6,7 +6,9 @@ Tech stack used :-
 + MySql
 + Css/Sass
 
-[`LIVE PREVIEW`](https://messi-banking-system.herokuapp.com/)
+## Project Demo
+https://user-images.githubusercontent.com/71878747/212647733-a0d3e770-bf58-497e-8f9c-a6607694c533.mp4
+
 
 About this project :-
 + It is a simple dynamic website which has the following specs.
